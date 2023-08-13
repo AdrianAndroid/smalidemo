@@ -20,11 +20,11 @@
 
     .prologue
     .line 5
-    const/4 v6, 0x4
+    const/4 v6, 0x4 # 数组长度
 
-    new-array v1, v6, [D
+    new-array v1, v6, [D # 创建新数组
 
-    fill-array-data v1, :array_76
+    fill-array-data v1, :array_76 # 填充数据
 
     .line 8
     .local v1, "myList":[D
