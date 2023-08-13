@@ -3,6 +3,7 @@
 .source "A01_Java\u7b80\u4ecb.java"
 
 
+# p0 是 this
 # direct methods
 .method public constructor <init>()V
     .registers 1
